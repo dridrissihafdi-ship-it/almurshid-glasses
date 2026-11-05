@@ -1,0 +1,36 @@
+{
+  "name": "المرشد",
+  "description": "رفيق السالك على النظارة: الصلاة القادمة، وأذكار الصباح والمساء ذكرًا ذكرًا، والسبحة، ومواقيت اليوم.",
+  "pages": [
+    "pages/home",
+    "pages/adhkar",
+    "pages/subha",
+    "pages/times"
+  ],
+  "widgets": [
+    {
+      "path": "widgets/prayer",
+      "family": "1x2",
+      "placement": "persistent",
+      "displayName": "الصلاة القادمة",
+      "description": "اسم الصلاة القادمة ووقتها والوقت الباقي عليها."
+    }
+  ],
+  "permissions": [
+    "GEOLOCATION"
+  ],
+  "fonts": [
+    {
+      "family": "Murshid Arabic",
+      "src": "Amiri-Regular.ttf",
+      "weight": 400,
+      "style": "normal"
+    }
+  ],
+  "window": {
+    "navigationBarTitleText": "المرشد",
+    "viewport": {
+      "width": "device-width"
+    }
+  }
+}
